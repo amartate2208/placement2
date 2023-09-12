@@ -1,0 +1,200 @@
+body.ab {
+    height: auto;
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+    background-image: url(signin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upperline {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(192, 112, 7);
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: auto;
+    background-color: rgb(7, 11, 86);
+}
+
+nav.logo img {
+    width: 190px;
+    height: auto;
+}
+
+.header nav.menu,
+nav.sign {
+    margin-inline-start: 120px;
+}
+
+.header nav.logo a {
+    margin-left: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.header nav.logo a,
+nav.menu ul li a,
+nav.sign ul li a {
+    color: white;
+}
+
+.header nav.menu ul li {
+    font-size: 25px;
+    padding-inline-start: 40px;
+}
+
+.header nav.sign ul li {
+    font-size: 25px;
+    padding-inline-start: 40px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header nav {
+    display: inline-block;
+}
+
+.header nav ul li {
+    display: inline-block;
+}
+
+.active,
+.header nav menu ul li :hover {
+    background-color: rgb(130, 136, 251);
+    border-radius: 2px;
+}
+
+nav.menu ul li a:hover {
+    color: rgb(192, 112, 7);
+}
+
+div.drop {
+    position: relative;
+    display: inline-block;
+}
+
+div.drop1 {
+    display: none;
+    background-color: rgb(6, 4, 51);
+    border-radius: 1px;
+    background-size: cover;
+    color: black;
+    position: absolute;
+    text-align: center;
+}
+
+div.drop:hover .drop1 {
+    display: block;
+}
+
+div.drop1 p a {
+    font-size: 20px;
+    color: rgb(26, 40, 13);
+}
+
+div.footer1 {
+    color: white;
+    padding-top: 10px;
+    height: auto;
+    width: auto;
+    background-color: rgb(7, 11, 86);
+}
+
+.info {
+    padding: 7px;
+    color: white;
+}
+
+nav.logo12 .info1 {
+    padding: 7px;
+    color: white;
+    font-size: 30px;
+}
+
+nav.logo12 .info1:hover {
+    color: rgb(192, 112, 7);
+}
+
+nav.information .mob:hover {
+    color: rgb(192, 112, 7);
+    ;
+}
+
+div.footer1 nav img {
+    width: 190px;
+    height: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+div.footer1 nav {
+    display: inline-block;
+    padding-inline-start: 150px;
+    color: white;
+}
+
+nav.candidate ul li a,
+nav.quick ul li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+div.footer1 nav ul li a:hover {
+    color: rgb(192, 112, 7);
+}
+
+.background .inputname {
+    height: 100px;
+    width: 40%;
+    margin-left: 420px;
+    margin-top: 20px;
+}
+
+.background .inputname .button {
+    background-color: rgb(14, 14, 103);
+    border-radius: 7px;
+    color: white;
+    height: 50px;
+    line-height: 35px;
+    width: 30%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.background .inputname .button a {
+    text-decoration: none;
+}
+
+.background .inputname .button:hover {
+    background-color: rgb(3, 3, 32);
+}
+
+div.footer2 {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(192, 112, 7);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+div.footer2 abbr {
+    text-decoration: none;
+}
